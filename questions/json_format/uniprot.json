@@ -1,0 +1,1526 @@
+[
+    {
+        "user_question": "What is the UniProt ID for the protein associated with the ACE2 gene?",
+        "database": "uniprot",
+        "variables": [
+            "UniProt"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID0-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the UniProt ID for the protein associated with the ACE2 gene?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?UniProt \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please tell me the UniProt database identifier for the protein encoded by the ACE2 gene.",
+        "database": "uniprot",
+        "variables": [
+            "UniProt"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID0-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please tell me the UniProt database identifier for the protein encoded by the ACE2 gene.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?UniProt \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the UniProt accession number for the protein corresponding to ACE2?",
+        "database": "uniprot",
+        "variables": [
+            "UniProt"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID0-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the UniProt accession number for the protein corresponding to ACE2?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?UniProt \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306b\u95a2\u9023\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306eUniProt ID\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "UniProt"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID0-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306b\u95a2\u9023\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306eUniProt ID\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?UniProt \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u304c\u30b3\u30fc\u30c9\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306eUniProt\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u8b58\u5225\u5b50\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "UniProt"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID0-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u304c\u30b3\u30fc\u30c9\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306eUniProt\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u8b58\u5225\u5b50\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?UniProt \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u306b\u5bfe\u5fdc\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306eUniProt accession number\u306f\u4f55\u3067\u3057\u3087\u3046\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "UniProt"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID0-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u306b\u5bfe\u5fdc\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306eUniProt accession number\u306f\u4f55\u3067\u3057\u3087\u3046\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?UniProt \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the UniProt ID for the protein with the full name Angiotensin-converting enzyme 2?",
+        "database": "uniprot",
+        "variables": [
+            "UniProt"
+        ],
+        "param": [
+            "uniprot_recommended_name: \"Angiotensin-converting enzyme 2\""
+        ],
+        "id": "ID1-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the UniProt ID for the protein with the full name Angiotensin-converting enzyme 2?\n# Parameter: uniprot_recommended_name: (example: Angiotensin-converting enzyme 2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?UniProt \nWHERE {\n    VALUES ?uniprot_recommended_name { \"Angiotensin-converting enzyme 2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "I'm looking for the UniProt entry number for the protein known as Angiotensin-converting enzyme 2.",
+        "database": "uniprot",
+        "variables": [
+            "UniProt"
+        ],
+        "param": [
+            "uniprot_recommended_name: \"Angiotensin-converting enzyme 2\""
+        ],
+        "id": "ID1-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: I'm looking for the UniProt entry number for the protein known as Angiotensin-converting enzyme 2.\n# Parameter: uniprot_recommended_name: (example: Angiotensin-converting enzyme 2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?UniProt \nWHERE {\n    VALUES ?uniprot_recommended_name { \"Angiotensin-converting enzyme 2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the identifier used to search for the Angiotensin-converting enzyme 2 protein in the UniProt database?",
+        "database": "uniprot",
+        "variables": [
+            "UniProt"
+        ],
+        "param": [
+            "uniprot_recommended_name: \"Angiotensin-converting enzyme 2\""
+        ],
+        "id": "ID1-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the identifier used to search for the Angiotensin-converting enzyme 2 protein in the UniProt database?\n# Parameter: uniprot_recommended_name: (example: Angiotensin-converting enzyme 2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?UniProt \nWHERE {\n    VALUES ?uniprot_recommended_name { \"Angiotensin-converting enzyme 2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Angiotensin-converting enzyme 2\u3068\u3044\u3046\u30d5\u30eb\u30cd\u30fc\u30e0\u3092\u6301\u3064\u30bf\u30f3\u30d1\u30af\u8cea\u306eUniProt ID\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "UniProt"
+        ],
+        "param": [
+            "uniprot_recommended_name: \"Angiotensin-converting enzyme 2\""
+        ],
+        "id": "ID1-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Angiotensin-converting enzyme 2\u3068\u3044\u3046\u30d5\u30eb\u30cd\u30fc\u30e0\u3092\u6301\u3064\u30bf\u30f3\u30d1\u30af\u8cea\u306eUniProt ID\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_recommended_name: (example: Angiotensin-converting enzyme 2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?UniProt \nWHERE {\n    VALUES ?uniprot_recommended_name { \"Angiotensin-converting enzyme 2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Angiotensin-converting enzyme 2\u3068\u3057\u3066\u77e5\u3089\u308c\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306eUniProt\u30a8\u30f3\u30c8\u30ea\u30fc\u756a\u53f7\u3092\u63a2\u3057\u3066\u3044\u307e\u3059\u3002",
+        "database": "uniprot",
+        "variables": [
+            "UniProt"
+        ],
+        "param": [
+            "uniprot_recommended_name: \"Angiotensin-converting enzyme 2\""
+        ],
+        "id": "ID1-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Angiotensin-converting enzyme 2\u3068\u3057\u3066\u77e5\u3089\u308c\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306eUniProt\u30a8\u30f3\u30c8\u30ea\u30fc\u756a\u53f7\u3092\u63a2\u3057\u3066\u3044\u307e\u3059\u3002\n# Parameter: uniprot_recommended_name: (example: Angiotensin-converting enzyme 2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?UniProt \nWHERE {\n    VALUES ?uniprot_recommended_name { \"Angiotensin-converting enzyme 2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "UniProt\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u3067Angiotensin-converting enzyme 2\u30bf\u30f3\u30d1\u30af\u8cea\u3092\u691c\u7d22\u3059\u308b\u969b\u306e\u8b58\u5225\u5b50\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "UniProt"
+        ],
+        "param": [
+            "uniprot_recommended_name: \"Angiotensin-converting enzyme 2\""
+        ],
+        "id": "ID1-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: UniProt\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u3067Angiotensin-converting enzyme 2\u30bf\u30f3\u30d1\u30af\u8cea\u3092\u691c\u7d22\u3059\u308b\u969b\u306e\u8b58\u5225\u5b50\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_recommended_name: (example: Angiotensin-converting enzyme 2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?UniProt \nWHERE {\n    VALUES ?uniprot_recommended_name { \"Angiotensin-converting enzyme 2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What are the aliases for the ACE2 gene?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_gene_alt_name"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID2-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What are the aliases for the ACE2 gene?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_gene_alt_name \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:altLabel ?uniprot_gene_alt_name ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please tell me the other names given to the ACE2 gene.",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_gene_alt_name"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID2-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please tell me the other names given to the ACE2 gene.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_gene_alt_name \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:altLabel ?uniprot_gene_alt_name ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Is the ACE2 gene called by any other names? If so, what are they?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_gene_alt_name"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID2-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Is the ACE2 gene called by any other names? If so, what are they?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_gene_alt_name \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:altLabel ?uniprot_gene_alt_name ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306e\u5225\u540d\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_gene_alt_name"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID2-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306e\u5225\u540d\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_gene_alt_name \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:altLabel ?uniprot_gene_alt_name ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306b\u4ed8\u3051\u3089\u308c\u3066\u3044\u308b\u4ed6\u306e\u540d\u79f0\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_gene_alt_name"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID2-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306b\u4ed8\u3051\u3089\u308c\u3066\u3044\u308b\u4ed6\u306e\u540d\u79f0\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_gene_alt_name \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:altLabel ?uniprot_gene_alt_name ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u304c\u5225\u306e\u540d\u524d\u3067\u547c\u3070\u308c\u308b\u3053\u3068\u306f\u3042\u308a\u307e\u3059\u304b? \u305d\u308c\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_gene_alt_name"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID2-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u304c\u5225\u306e\u540d\u524d\u3067\u547c\u3070\u308c\u308b\u3053\u3068\u306f\u3042\u308a\u307e\u3059\u304b? \u305d\u308c\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_gene_alt_name \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:altLabel ?uniprot_gene_alt_name ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the EC number for the ACE2 gene?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_ec"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID3-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the EC number for the ACE2 gene?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_recommended_ec \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:ecName ?uniprot_recommended_ec ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "I want to know the Enzyme Commission number for the enzyme coded by the ACE2 gene.",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_ec"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID3-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: I want to know the Enzyme Commission number for the enzyme coded by the ACE2 gene.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_recommended_ec \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:ecName ?uniprot_recommended_ec ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please tell me the EC classification number assigned to the ACE2 protein.",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_ec"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID3-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please tell me the EC classification number assigned to the ACE2 protein.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_recommended_ec \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:ecName ?uniprot_recommended_ec ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306eEC\u756a\u53f7\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_ec"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID3-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306eEC\u756a\u53f7\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_recommended_ec \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:ecName ?uniprot_recommended_ec ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u304c\u30b3\u30fc\u30c9\u3059\u308b\u9175\u7d20\u306eEnzyme Commission number\u3092\u77e5\u308a\u305f\u3044\u3067\u3059\u3002",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_ec"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID3-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u304c\u30b3\u30fc\u30c9\u3059\u308b\u9175\u7d20\u306eEnzyme Commission number\u3092\u77e5\u308a\u305f\u3044\u3067\u3059\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_recommended_ec \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:ecName ?uniprot_recommended_ec ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u30bf\u30f3\u30d1\u30af\u8cea\u306b\u5272\u308a\u5f53\u3066\u3089\u308c\u3066\u3044\u308bEC\u5206\u985e\u756a\u53f7\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_ec"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID3-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u30bf\u30f3\u30d1\u30af\u8cea\u306b\u5272\u308a\u5f53\u3066\u3089\u308c\u3066\u3044\u308bEC\u5206\u985e\u756a\u53f7\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_recommended_ec \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:ecName ?uniprot_recommended_ec ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the name of the protein with EC number 3.4.17.23?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_recommended_ec: \"3.4.17.23\""
+        ],
+        "id": "ID4-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the name of the protein with EC number 3.4.17.23?\n# Parameter: uniprot_recommended_ec: (example: 3.4.17.23)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_recommended_ec { \"3.4.17.23\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:recommendedName / core:ecName ?uniprot_recommended_ec .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the name of the protein classified under Enzyme Commission number 3.4.17.23?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_recommended_ec: \"3.4.17.23\""
+        ],
+        "id": "ID4-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the name of the protein classified under Enzyme Commission number 3.4.17.23?\n# Parameter: uniprot_recommended_ec: (example: 3.4.17.23)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_recommended_ec { \"3.4.17.23\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:recommendedName / core:ecName ?uniprot_recommended_ec .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the name of the protein assigned the EC number 3.4.17.23?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_recommended_ec: \"3.4.17.23\""
+        ],
+        "id": "ID4-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the name of the protein assigned the EC number 3.4.17.23?\n# Parameter: uniprot_recommended_ec: (example: 3.4.17.23)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_recommended_ec { \"3.4.17.23\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:recommendedName / core:ecName ?uniprot_recommended_ec .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "EC\u756a\u53f73.4.17.23\u3092\u6301\u3064\u30bf\u30f3\u30d1\u30af\u8cea\u540d\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_recommended_ec: \"3.4.17.23\""
+        ],
+        "id": "ID4-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: EC\u756a\u53f73.4.17.23\u3092\u6301\u3064\u30bf\u30f3\u30d1\u30af\u8cea\u540d\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_recommended_ec: (example: 3.4.17.23)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_recommended_ec { \"3.4.17.23\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:recommendedName / core:ecName ?uniprot_recommended_ec .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Enzyme Commission number 3.4.17.23\u306b\u5206\u985e\u3055\u308c\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_recommended_ec: \"3.4.17.23\""
+        ],
+        "id": "ID4-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Enzyme Commission number 3.4.17.23\u306b\u5206\u985e\u3055\u308c\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_recommended_ec: (example: 3.4.17.23)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_recommended_ec { \"3.4.17.23\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:recommendedName / core:ecName ?uniprot_recommended_ec .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "3.4.17.23\u3068\u3044\u3046EC\u756a\u53f7\u304c\u5272\u308a\u5f53\u3066\u3089\u308c\u3066\u3044\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u540d\u306f?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_recommended_ec: \"3.4.17.23\""
+        ],
+        "id": "ID4-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: 3.4.17.23\u3068\u3044\u3046EC\u756a\u53f7\u304c\u5272\u308a\u5f53\u3066\u3089\u308c\u3066\u3044\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u540d\u306f?\n# Parameter: uniprot_recommended_ec: (example: 3.4.17.23)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_recommended_ec { \"3.4.17.23\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:recommendedName / core:ecName ?uniprot_recommended_ec .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the ORF name for the ACE2 gene?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_orf_name"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID5-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the ORF name for the ACE2 gene?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_orf_name \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / core:orfName ?uniprot_orf_name ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please tell me the identifier for the Open Reading Frame corresponding to the ACE2 gene.",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_orf_name"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID5-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please tell me the identifier for the Open Reading Frame corresponding to the ACE2 gene.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_orf_name \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / core:orfName ?uniprot_orf_name ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the ORF (Open Reading Frame) name that indicates the translation region of ACE2?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_orf_name"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID5-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the ORF (Open Reading Frame) name that indicates the translation region of ACE2?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_orf_name \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / core:orfName ?uniprot_orf_name ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306eORF\u540d\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_orf_name"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID5-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306eORF\u540d\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_orf_name \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / core:orfName ?uniprot_orf_name ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306b\u5bfe\u5fdc\u3059\u308bOpen Reading Frame\u306e\u8b58\u5225\u5b50\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_orf_name"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID5-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306b\u5bfe\u5fdc\u3059\u308bOpen Reading Frame\u306e\u8b58\u5225\u5b50\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_orf_name \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / core:orfName ?uniprot_orf_name ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u306e\u7ffb\u8a33\u9818\u57df\u3092\u793a\u3059ORF\uff08\u30aa\u30fc\u30d7\u30f3\u30ea\u30fc\u30c7\u30a3\u30f3\u30b0\u30d5\u30ec\u30fc\u30e0\uff09\u540d\u306f\u4f55\u3067\u3057\u3087\u3046\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_orf_name"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID5-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u306e\u7ffb\u8a33\u9818\u57df\u3092\u793a\u3059ORF\uff08\u30aa\u30fc\u30d7\u30f3\u30ea\u30fc\u30c7\u30a3\u30f3\u30b0\u30d5\u30ec\u30fc\u30e0\uff09\u540d\u306f\u4f55\u3067\u3057\u3087\u3046\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_orf_name \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / core:orfName ?uniprot_orf_name ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the name of the protein with the ORF name UNQ868/PRO1885?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_orf_name: \"UNQ868/PRO1885\""
+        ],
+        "id": "ID6-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the name of the protein with the ORF name UNQ868/PRO1885?\n# Parameter: uniprot_orf_name: (example: UNQ868/PRO1885)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_orf_name { \"UNQ868/PRO1885\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:encodedBy / core:orfName ?uniprot_orf_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "I want to know the official name of the protein encoded by Open Reading Frame UNQ868/PRO1885.",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_orf_name: \"UNQ868/PRO1885\""
+        ],
+        "id": "ID6-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: I want to know the official name of the protein encoded by Open Reading Frame UNQ868/PRO1885.\n# Parameter: uniprot_orf_name: (example: UNQ868/PRO1885)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_orf_name { \"UNQ868/PRO1885\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:encodedBy / core:orfName ?uniprot_orf_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the protein translated from the ORF UNQ868/PRO1885 called?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_orf_name: \"UNQ868/PRO1885\""
+        ],
+        "id": "ID6-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the protein translated from the ORF UNQ868/PRO1885 called?\n# Parameter: uniprot_orf_name: (example: UNQ868/PRO1885)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_orf_name { \"UNQ868/PRO1885\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:encodedBy / core:orfName ?uniprot_orf_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "UNQ868/PRO1885\u3068\u3044\u3046ORF\u540d\u3092\u6301\u3064\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_orf_name: \"UNQ868/PRO1885\""
+        ],
+        "id": "ID6-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: UNQ868/PRO1885\u3068\u3044\u3046ORF\u540d\u3092\u6301\u3064\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_orf_name: (example: UNQ868/PRO1885)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_orf_name { \"UNQ868/PRO1885\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:encodedBy / core:orfName ?uniprot_orf_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Open Reading Frame UNQ868/PRO1885\u304c\u30b3\u30fc\u30c9\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u6b63\u5f0f\u540d\u79f0\u3092\u77e5\u308a\u305f\u3044\u3067\u3059\u3002",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_orf_name: \"UNQ868/PRO1885\""
+        ],
+        "id": "ID6-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Open Reading Frame UNQ868/PRO1885\u304c\u30b3\u30fc\u30c9\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u6b63\u5f0f\u540d\u79f0\u3092\u77e5\u308a\u305f\u3044\u3067\u3059\u3002\n# Parameter: uniprot_orf_name: (example: UNQ868/PRO1885)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_orf_name { \"UNQ868/PRO1885\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:encodedBy / core:orfName ?uniprot_orf_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "UNQ868/PRO1885\u3068\u3044\u3046ORF\u304b\u3089\u7ffb\u8a33\u3055\u308c\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306f\u4f55\u3068\u547c\u3070\u308c\u3066\u3044\u307e\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_orf_name: \"UNQ868/PRO1885\""
+        ],
+        "id": "ID6-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: UNQ868/PRO1885\u3068\u3044\u3046ORF\u304b\u3089\u7ffb\u8a33\u3055\u308c\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306f\u4f55\u3068\u547c\u3070\u308c\u3066\u3044\u307e\u3059\u304b?\n# Parameter: uniprot_orf_name: (example: UNQ868/PRO1885)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_orf_name { \"UNQ868/PRO1885\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:encodedBy / core:orfName ?uniprot_orf_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please tell me about the annotations regarding the protein function of the ACE2 gene.",
+        "database": "uniprot",
+        "variables": [
+            "function_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name : \"ACE2\""
+        ],
+        "id": "ID8-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please tell me about the annotations regarding the protein function of the ACE2 gene.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?function_annotation_desc ?uniprot_gene_name\nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?FunctionAnnotation .\n        ?FunctionAnnotation a core:Function_Annotation ;\n            rdfs:comment ?function_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Explain the biological role of the protein encoded by the ACE2 gene.",
+        "database": "uniprot",
+        "variables": [
+            "function_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name : \"ACE2\""
+        ],
+        "id": "ID8-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Explain the biological role of the protein encoded by the ACE2 gene.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?function_annotation_desc ?uniprot_gene_name\nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?FunctionAnnotation .\n        ?FunctionAnnotation a core:Function_Annotation ;\n            rdfs:comment ?function_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please share what is known about the known functions and activities of the ACE2 protein.",
+        "database": "uniprot",
+        "variables": [
+            "function_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name : \"ACE2\""
+        ],
+        "id": "ID8-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please share what is known about the known functions and activities of the ACE2 protein.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?function_annotation_desc ?uniprot_gene_name\nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?FunctionAnnotation .\n        ?FunctionAnnotation a core:Function_Annotation ;\n            rdfs:comment ?function_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306e\u30bf\u30f3\u30d1\u30af\u8cea\u6a5f\u80fd\u306b\u95a2\u3059\u308b\u6ce8\u91c8\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "function_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name : \"ACE2\""
+        ],
+        "id": "ID8-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306e\u30bf\u30f3\u30d1\u30af\u8cea\u6a5f\u80fd\u306b\u95a2\u3059\u308b\u6ce8\u91c8\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?function_annotation_desc ?uniprot_gene_name\nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?FunctionAnnotation .\n        ?FunctionAnnotation a core:Function_Annotation ;\n            rdfs:comment ?function_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u304c\u30b3\u30fc\u30c9\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u751f\u7269\u5b66\u7684\u5f79\u5272\u306b\u3064\u3044\u3066\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "function_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name : \"ACE2\""
+        ],
+        "id": "ID8-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u304c\u30b3\u30fc\u30c9\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u751f\u7269\u5b66\u7684\u5f79\u5272\u306b\u3064\u3044\u3066\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?function_annotation_desc ?uniprot_gene_name\nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?FunctionAnnotation .\n        ?FunctionAnnotation a core:Function_Annotation ;\n            rdfs:comment ?function_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u65e2\u77e5\u306e\u6a5f\u80fd\u3084\u6d3b\u6027\u306b\u3064\u3044\u3066\u3001\u308f\u304b\u3063\u3066\u3044\u308b\u3053\u3068\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "function_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name : \"ACE2\""
+        ],
+        "id": "ID8-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u65e2\u77e5\u306e\u6a5f\u80fd\u3084\u6d3b\u6027\u306b\u3064\u3044\u3066\u3001\u308f\u304b\u3063\u3066\u3044\u308b\u3053\u3068\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?function_annotation_desc ?uniprot_gene_name\nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?FunctionAnnotation .\n        ?FunctionAnnotation a core:Function_Annotation ;\n            rdfs:comment ?function_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the name of the protein corresponding to NCBI Gene ID ncbigene:59272?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_ncbigene: ncbigene:59272"
+        ],
+        "id": "ID9-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the name of the protein corresponding to NCBI Gene ID ncbigene:59272?\n# Parameter: uniprot_ncbigene: (example: ncbigene:59272)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX ncbigene: <http://identifiers.org/ncbigene/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_ncbigene { ncbigene:59272 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_ncbigene .\n        ?uniprot_ncbigene a core:Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "I want to know the protein name associated with the entry that has the identifier ncbigene:59272 in the NCBI gene database.",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_ncbigene: ncbigene:59272"
+        ],
+        "id": "ID9-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: I want to know the protein name associated with the entry that has the identifier ncbigene:59272 in the NCBI gene database.\n# Parameter: uniprot_ncbigene: (example: ncbigene:59272)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX ncbigene: <http://identifiers.org/ncbigene/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_ncbigene { ncbigene:59272 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_ncbigene .\n        ?uniprot_ncbigene a core:Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the official name of the protein translated from the NCBI Gene ID ncbigene:59272?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_ncbigene: ncbigene:59272"
+        ],
+        "id": "ID9-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the official name of the protein translated from the NCBI Gene ID ncbigene:59272?\n# Parameter: uniprot_ncbigene: (example: ncbigene:59272)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX ncbigene: <http://identifiers.org/ncbigene/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_ncbigene { ncbigene:59272 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_ncbigene .\n        ?uniprot_ncbigene a core:Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "NCBI Gene ID ncbigene:59272\u306b\u5bfe\u5fdc\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_ncbigene: ncbigene:59272"
+        ],
+        "id": "ID9-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: NCBI Gene ID ncbigene:59272\u306b\u5bfe\u5fdc\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_ncbigene: (example: ncbigene:59272)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX ncbigene: <http://identifiers.org/ncbigene/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_ncbigene { ncbigene:59272 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_ncbigene .\n        ?uniprot_ncbigene a core:Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "NCBI\u907a\u4f1d\u5b50\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u3067ncbigene:59272\u3068\u3044\u3046\u8b58\u5225\u5b50\u3092\u6301\u3064\u30a8\u30f3\u30c8\u30ea\u30fc\u306b\u95a2\u9023\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u540d\u3092\u77e5\u308a\u305f\u3044\u3067\u3059\u3002",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_ncbigene: ncbigene:59272"
+        ],
+        "id": "ID9-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: NCBI\u907a\u4f1d\u5b50\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u3067ncbigene:59272\u3068\u3044\u3046\u8b58\u5225\u5b50\u3092\u6301\u3064\u30a8\u30f3\u30c8\u30ea\u30fc\u306b\u95a2\u9023\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u540d\u3092\u77e5\u308a\u305f\u3044\u3067\u3059\u3002\n# Parameter: uniprot_ncbigene: (example: ncbigene:59272)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX ncbigene: <http://identifiers.org/ncbigene/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_ncbigene { ncbigene:59272 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_ncbigene .\n        ?uniprot_ncbigene a core:Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ncbigene:59272\u3068\u3044\u3046NCBI Gene ID\u304b\u3089\u7ffb\u8a33\u3055\u308c\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u6b63\u5f0f\u540d\u79f0\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_ncbigene: ncbigene:59272"
+        ],
+        "id": "ID9-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ncbigene:59272\u3068\u3044\u3046NCBI Gene ID\u304b\u3089\u7ffb\u8a33\u3055\u308c\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u6b63\u5f0f\u540d\u79f0\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_ncbigene: (example: ncbigene:59272)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX ncbigene: <http://identifiers.org/ncbigene/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_ncbigene { ncbigene:59272 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_ncbigene .\n        ?uniprot_ncbigene a core:Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the name of the protein associated with Reactome ID reactome:R-HSA-2022377?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_reactome: reactome:R-HSA-2022377"
+        ],
+        "id": "ID10-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the name of the protein associated with Reactome ID reactome:R-HSA-2022377?\n# Parameter: uniprot_reactome: (example: reactome:R-HSA-2022377)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX reactome: <http://identifiers.org/reactome/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_reactome { reactome:R-HSA-2022377 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_reactome .\n        ?uniprot_reactome a core:Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please tell me the name of the protein linked to the identifier reactome:R-HSA-2022377 in the Reactome database.",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_reactome: reactome:R-HSA-2022377"
+        ],
+        "id": "ID10-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please tell me the name of the protein linked to the identifier reactome:R-HSA-2022377 in the Reactome database.\n# Parameter: uniprot_reactome: (example: reactome:R-HSA-2022377)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX reactome: <http://identifiers.org/reactome/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_reactome { reactome:R-HSA-2022377 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_reactome .\n        ?uniprot_reactome a core:Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the name of the biomolecule corresponding to the Reactome ID reactome:R-HSA-2022377?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_reactome: reactome:R-HSA-2022377"
+        ],
+        "id": "ID10-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the name of the biomolecule corresponding to the Reactome ID reactome:R-HSA-2022377?\n# Parameter: uniprot_reactome: (example: reactome:R-HSA-2022377)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX reactome: <http://identifiers.org/reactome/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_reactome { reactome:R-HSA-2022377 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_reactome .\n        ?uniprot_reactome a core:Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Reactome ID reactome:R-HSA-2022377\u306b\u95a2\u9023\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_reactome: reactome:R-HSA-2022377"
+        ],
+        "id": "ID10-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Reactome ID reactome:R-HSA-2022377\u306b\u95a2\u9023\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_reactome: (example: reactome:R-HSA-2022377)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX reactome: <http://identifiers.org/reactome/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_reactome { reactome:R-HSA-2022377 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_reactome .\n        ?uniprot_reactome a core:Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Reactome\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u3067reactome:R-HSA-2022377\u3068\u3044\u3046\u8b58\u5225\u5b50\u306b\u7d10\u3065\u3051\u3089\u308c\u3066\u3044\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_reactome: reactome:R-HSA-2022377"
+        ],
+        "id": "ID10-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Reactome\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u3067reactome:R-HSA-2022377\u3068\u3044\u3046\u8b58\u5225\u5b50\u306b\u7d10\u3065\u3051\u3089\u308c\u3066\u3044\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_reactome: (example: reactome:R-HSA-2022377)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX reactome: <http://identifiers.org/reactome/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_reactome { reactome:R-HSA-2022377 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_reactome .\n        ?uniprot_reactome a core:Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "reactome:R-HSA-2022377\u3068\u3044\u3046Reactome ID\u306b\u5bfe\u5fdc\u3059\u308b\u751f\u4f53\u5206\u5b50\u306e\u540d\u79f0\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_reactome: reactome:R-HSA-2022377"
+        ],
+        "id": "ID10-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: reactome:R-HSA-2022377\u3068\u3044\u3046Reactome ID\u306b\u5bfe\u5fdc\u3059\u308b\u751f\u4f53\u5206\u5b50\u306e\u540d\u79f0\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_reactome: (example: reactome:R-HSA-2022377)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX reactome: <http://identifiers.org/reactome/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_reactome { reactome:R-HSA-2022377 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_reactome .\n        ?uniprot_reactome a core:Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What are the PDB entries related to the protein structure of the ACE2 gene?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_pdb"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID11-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What are the PDB entries related to the protein structure of the ACE2 gene?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_pdb \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_pdb .\n        ?uniprot_pdb a core:Structure_Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "If the three-dimensional structure of the ACE2 protein is registered in the Protein Data Bank, please tell me its PDB ID.",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_pdb"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID11-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: If the three-dimensional structure of the ACE2 protein is registered in the Protein Data Bank, please tell me its PDB ID.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_pdb \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_pdb .\n        ?uniprot_pdb a core:Structure_Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "If structural information for the ACE2 gene product exists in the PDB, what is its entry number?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_pdb"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID11-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: If structural information for the ACE2 gene product exists in the PDB, what is its entry number?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_pdb \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_pdb .\n        ?uniprot_pdb a core:Structure_Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306e\u30bf\u30f3\u30d1\u30af\u8cea\u69cb\u9020\u306b\u95a2\u3059\u308bPDB\u30a8\u30f3\u30c8\u30ea\u30fc\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_pdb"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID11-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306e\u30bf\u30f3\u30d1\u30af\u8cea\u69cb\u9020\u306b\u95a2\u3059\u308bPDB\u30a8\u30f3\u30c8\u30ea\u30fc\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_pdb \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_pdb .\n        ?uniprot_pdb a core:Structure_Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u7acb\u4f53\u69cb\u9020\u304cProtein Data Bank\u306b\u767b\u9332\u3055\u308c\u3066\u3044\u308b\u5834\u5408\u3001\u305d\u306ePDB ID\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_pdb"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID11-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u7acb\u4f53\u69cb\u9020\u304cProtein Data Bank\u306b\u767b\u9332\u3055\u308c\u3066\u3044\u308b\u5834\u5408\u3001\u305d\u306ePDB ID\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_pdb \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_pdb .\n        ?uniprot_pdb a core:Structure_Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u7523\u7269\u306e\u69cb\u9020\u60c5\u5831\u304cPDB\u306b\u5b58\u5728\u3059\u308b\u5834\u5408\u3001\u305d\u306e\u30a8\u30f3\u30c8\u30ea\u30fc\u756a\u53f7\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_pdb"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID11-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u7523\u7269\u306e\u69cb\u9020\u60c5\u5831\u304cPDB\u306b\u5b58\u5728\u3059\u308b\u5834\u5408\u3001\u305d\u306e\u30a8\u30f3\u30c8\u30ea\u30fc\u756a\u53f7\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_pdb \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_pdb .\n        ?uniprot_pdb a core:Structure_Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the name of the protein associated with PDB ID pdb:7A97?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_pdb: pdb:7A97"
+        ],
+        "id": "ID12-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the name of the protein associated with PDB ID pdb:7A97?\n# Parameter: uniprot_pdb: (example: pdb:7A97)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX pdb: <http://rdf.wwpdb.org/pdb/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_pdb { pdb:7A97 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_pdb .\n        ?uniprot_pdb a core:Structure_Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "I want to know the official name of the protein registered in the Protein Data Bank entry pdb:7A97.",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_pdb: pdb:7A97"
+        ],
+        "id": "ID12-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: I want to know the official name of the protein registered in the Protein Data Bank entry pdb:7A97.\n# Parameter: uniprot_pdb: (example: pdb:7A97)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX pdb: <http://rdf.wwpdb.org/pdb/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_pdb { pdb:7A97 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_pdb .\n        ?uniprot_pdb a core:Structure_Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the protein called that corresponds to the structural data with the identifier pdb:7A97 in the PDB database?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_pdb: pdb:7A97"
+        ],
+        "id": "ID12-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the protein called that corresponds to the structural data with the identifier pdb:7A97 in the PDB database?\n# Parameter: uniprot_pdb: (example: pdb:7A97)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX pdb: <http://rdf.wwpdb.org/pdb/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_pdb { pdb:7A97 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_pdb .\n        ?uniprot_pdb a core:Structure_Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "PDB ID pdb:7A97\u306b\u95a2\u9023\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_pdb: pdb:7A97"
+        ],
+        "id": "ID12-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: PDB ID pdb:7A97\u306b\u95a2\u9023\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_pdb: (example: pdb:7A97)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX pdb: <http://rdf.wwpdb.org/pdb/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_pdb { pdb:7A97 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_pdb .\n        ?uniprot_pdb a core:Structure_Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Protein Data Bank \u30a8\u30f3\u30c8\u30ea\u30fcpdb:7A97\u306b\u767b\u9332\u3055\u308c\u3066\u3044\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u6b63\u5f0f\u540d\u79f0\u3092\u77e5\u308a\u305f\u3044\u3067\u3059\u3002",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_pdb: pdb:7A97"
+        ],
+        "id": "ID12-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Protein Data Bank \u30a8\u30f3\u30c8\u30ea\u30fcpdb:7A97\u306b\u767b\u9332\u3055\u308c\u3066\u3044\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u6b63\u5f0f\u540d\u79f0\u3092\u77e5\u308a\u305f\u3044\u3067\u3059\u3002\n# Parameter: uniprot_pdb: (example: pdb:7A97)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX pdb: <http://rdf.wwpdb.org/pdb/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_pdb { pdb:7A97 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_pdb .\n        ?uniprot_pdb a core:Structure_Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "PDB\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u3067pdb:7A97\u3068\u3044\u3046\u8b58\u5225\u5b50\u3092\u6301\u3064\u69cb\u9020\u30c7\u30fc\u30bf\u306b\u5bfe\u5fdc\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306f\u4f55\u3068\u547c\u3070\u308c\u3066\u3044\u307e\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_pdb: pdb:7A97"
+        ],
+        "id": "ID12-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: PDB\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u3067pdb:7A97\u3068\u3044\u3046\u8b58\u5225\u5b50\u3092\u6301\u3064\u69cb\u9020\u30c7\u30fc\u30bf\u306b\u5bfe\u5fdc\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306f\u4f55\u3068\u547c\u3070\u308c\u3066\u3044\u307e\u3059\u304b?\n# Parameter: uniprot_pdb: (example: pdb:7A97)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX pdb: <http://rdf.wwpdb.org/pdb/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_pdb { pdb:7A97 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt rdfs:seeAlso ?uniprot_pdb .\n        ?uniprot_pdb a core:Structure_Resource .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Which GO terms is the protein of the ACE2 gene classified under?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_go"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID13-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Which GO terms is the protein of the ACE2 gene classified under?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_go \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:classifiedWith ?uniprot_go ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    ?uniprot_go a owl:Class .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please tell me the Gene Ontology terms assigned to the ACE2 protein.",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_go"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID13-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please tell me the Gene Ontology terms assigned to the ACE2 protein.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_go \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:classifiedWith ?uniprot_go ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    ?uniprot_go a owl:Class .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "In the Gene Ontology database, what functions or processes is the ACE2 gene product classified under?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_go"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID13-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: In the Gene Ontology database, what functions or processes is the ACE2 gene product classified under?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_go \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:classifiedWith ?uniprot_go ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    ?uniprot_go a owl:Class .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306e\u30bf\u30f3\u30d1\u30af\u8cea\u306f\u3069\u306eGO\u30bf\u30fc\u30e0\u306b\u5206\u985e\u3055\u308c\u3066\u3044\u307e\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_go"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID13-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306e\u30bf\u30f3\u30d1\u30af\u8cea\u306f\u3069\u306eGO\u30bf\u30fc\u30e0\u306b\u5206\u985e\u3055\u308c\u3066\u3044\u307e\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_go \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:classifiedWith ?uniprot_go ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    ?uniprot_go a owl:Class .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u30bf\u30f3\u30d1\u30af\u8cea\u306b\u4ed8\u4e0e\u3055\u308c\u3066\u3044\u308bGene Ontology\u7528\u8a9e\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_go"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID13-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u30bf\u30f3\u30d1\u30af\u8cea\u306b\u4ed8\u4e0e\u3055\u308c\u3066\u3044\u308bGene Ontology\u7528\u8a9e\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_go \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:classifiedWith ?uniprot_go ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    ?uniprot_go a owl:Class .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Gene Ontology\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u306b\u304a\u3044\u3066\u3001ACE2\u907a\u4f1d\u5b50\u7523\u7269\u306f\u3069\u306e\u3088\u3046\u306a\u6a5f\u80fd\u3084\u904e\u7a0b\u306b\u5206\u985e\u3055\u308c\u3066\u3044\u307e\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_go"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID13-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Gene Ontology\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u306b\u304a\u3044\u3066\u3001ACE2\u907a\u4f1d\u5b50\u7523\u7269\u306f\u3069\u306e\u3088\u3046\u306a\u6a5f\u80fd\u3084\u904e\u7a0b\u306b\u5206\u985e\u3055\u308c\u3066\u3044\u307e\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?uniprot_go \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:classifiedWith ?uniprot_go ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    ?uniprot_go a owl:Class .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What are the names of proteins classified under obo:GO_0001618?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_go: obo:GO_0001618"
+        ],
+        "id": "ID14-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What are the names of proteins classified under obo:GO_0001618?\n# Parameter: uniprot_go: (example: obo:GO_0001618)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX obo: <http://purl.obolibrary.org/obo/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_go { obo:GO_0001618 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:classifiedWith ?uniprot_go .\n    ?uniprot_go a owl:Class .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please list the names of proteins associated with the Gene Ontology term obo:GO_0001618.",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_go: obo:GO_0001618"
+        ],
+        "id": "ID14-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please list the names of proteins associated with the Gene Ontology term obo:GO_0001618.\n# Parameter: uniprot_go: (example: obo:GO_0001618)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX obo: <http://purl.obolibrary.org/obo/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_go { obo:GO_0001618 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:classifiedWith ?uniprot_go .\n    ?uniprot_go a owl:Class .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What gene products are classified under the GO term obo:GO_0001618?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_go: obo:GO_0001618"
+        ],
+        "id": "ID14-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What gene products are classified under the GO term obo:GO_0001618?\n# Parameter: uniprot_go: (example: obo:GO_0001618)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX obo: <http://purl.obolibrary.org/obo/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_go { obo:GO_0001618 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:classifiedWith ?uniprot_go .\n    ?uniprot_go a owl:Class .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "obo:GO_0001618\u306b\u5206\u985e\u3055\u308c\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_go: obo:GO_0001618"
+        ],
+        "id": "ID14-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: obo:GO_0001618\u306b\u5206\u985e\u3055\u308c\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_go: (example: obo:GO_0001618)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX obo: <http://purl.obolibrary.org/obo/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_go { obo:GO_0001618 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:classifiedWith ?uniprot_go .\n    ?uniprot_go a owl:Class .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Gene Ontology\u7528\u8a9eobo:GO_0001618\u306b\u95a2\u9023\u4ed8\u3051\u3089\u308c\u3066\u3044\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u3092\u5217\u6319\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_go: obo:GO_0001618"
+        ],
+        "id": "ID14-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Gene Ontology\u7528\u8a9eobo:GO_0001618\u306b\u95a2\u9023\u4ed8\u3051\u3089\u308c\u3066\u3044\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u3092\u5217\u6319\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_go: (example: obo:GO_0001618)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX obo: <http://purl.obolibrary.org/obo/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_go { obo:GO_0001618 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:classifiedWith ?uniprot_go .\n    ?uniprot_go a owl:Class .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "obo:GO_0001618\u3068\u3044\u3046GO\u30bf\u30fc\u30e0\u306b\u5206\u985e\u3055\u308c\u308b\u907a\u4f1d\u5b50\u7523\u7269\u306b\u306f\u3069\u306e\u3088\u3046\u306a\u3082\u306e\u304c\u3042\u308a\u307e\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "uniprot_go: obo:GO_0001618"
+        ],
+        "id": "ID14-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: obo:GO_0001618\u3068\u3044\u3046GO\u30bf\u30fc\u30e0\u306b\u5206\u985e\u3055\u308c\u308b\u907a\u4f1d\u5b50\u7523\u7269\u306b\u306f\u3069\u306e\u3088\u3046\u306a\u3082\u306e\u304c\u3042\u308a\u307e\u3059\u304b?\n# Parameter: uniprot_go: (example: obo:GO_0001618)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX obo: <http://purl.obolibrary.org/obo/>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?uniprot_go { obo:GO_0001618 }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name ;\n        core:classifiedWith ?uniprot_go .\n    ?uniprot_go a owl:Class .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the DOI of the main literature citation for the protein of the ACE2 gene?",
+        "database": "uniprot",
+        "variables": [
+            "citation_doi"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID15-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the DOI of the main literature citation for the protein of the ACE2 gene?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?citation_doi \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:citation / dct:identifier ?citation_doi ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please provide the DOI (Digital Object Identifier) of an important research paper that describes the ACE2 protein in detail.",
+        "database": "uniprot",
+        "variables": [
+            "citation_doi"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID15-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please provide the DOI (Digital Object Identifier) of an important research paper that describes the ACE2 protein in detail.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?citation_doi \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:citation / dct:identifier ?citation_doi ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Which DOI can be used to identify a representative scientific paper about the ACE2 gene product?",
+        "database": "uniprot",
+        "variables": [
+            "citation_doi"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID15-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Which DOI can be used to identify a representative scientific paper about the ACE2 gene product?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?citation_doi \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:citation / dct:identifier ?citation_doi ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306e\u30bf\u30f3\u30d1\u30af\u8cea\u306b\u95a2\u3059\u308b\u4e3b\u8981\u306a\u6587\u732e\u306e\u5f15\u7528\u60c5\u5831\u3067\u3042\u308bDOI\u306f\u306a\u3093\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "citation_doi"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID15-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306e\u30bf\u30f3\u30d1\u30af\u8cea\u306b\u95a2\u3059\u308b\u4e3b\u8981\u306a\u6587\u732e\u306e\u5f15\u7528\u60c5\u5831\u3067\u3042\u308bDOI\u306f\u306a\u3093\u3067\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?citation_doi \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:citation / dct:identifier ?citation_doi ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u30bf\u30f3\u30d1\u30af\u8cea\u306b\u3064\u3044\u3066\u8a73\u3057\u304f\u8ff0\u3079\u3066\u3044\u308b\u91cd\u8981\u306a\u7814\u7a76\u8ad6\u6587\u306eDOI (Digital Object Identifier) \u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "citation_doi"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID15-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u30bf\u30f3\u30d1\u30af\u8cea\u306b\u3064\u3044\u3066\u8a73\u3057\u304f\u8ff0\u3079\u3066\u3044\u308b\u91cd\u8981\u306a\u7814\u7a76\u8ad6\u6587\u306eDOI (Digital Object Identifier) \u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?citation_doi \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:citation / dct:identifier ?citation_doi ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u7523\u7269\u306b\u95a2\u3059\u308b\u4ee3\u8868\u7684\u306a\u79d1\u5b66\u8ad6\u6587\u3092\u7279\u5b9a\u3059\u308b\u305f\u3081\u306eDOI\u306f\u3069\u308c\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "citation_doi"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID15-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u7523\u7269\u306b\u95a2\u3059\u308b\u4ee3\u8868\u7684\u306a\u79d1\u5b66\u8ad6\u6587\u3092\u7279\u5b9a\u3059\u308b\u305f\u3081\u306eDOI\u306f\u3069\u308c\u3067\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?citation_doi \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:citation / dct:identifier ?citation_doi ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Where can I find information about the binding sites of the ACE2 gene?",
+        "database": "uniprot",
+        "variables": [
+            "binding_site_annotation_ligand",
+            "binding_site_annotation_begin_position",
+            "binding_site_annotation_end_position"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID17-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Where can I find information about the binding sites of the ACE2 gene?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX faldo: <http://biohackathon.org/resource/faldo#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?binding_site_annotation_ligand ?binding_site_annotation_begin_position ?binding_site_annotation_end_position \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:ligand / rdfs:subClassOf ?binding_site_annotation_ligand .\n    }\n    OPTIONAL {\n        ?UniProt core:annotation ?BindingSiteAnnotation .\n        ?BindingSiteAnnotation a core:Binding_Site_Annotation ;\n            core:range [\n                a faldo:Region ;\n                faldo:begin [\n                    a faldo:Position ;\n                    faldo:position ?binding_site_annotation_begin_position ;\n                ] ;\n                faldo:end [\n                    a faldo:Position ;\n                    faldo:position ?binding_site_annotation_end_position ;\n                ] ;\n            ] .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Which databases or information sources should I refer to in order to learn more about the intermolecular interaction sites of the ACE2 protein?",
+        "database": "uniprot",
+        "variables": [
+            "binding_site_annotation_ligand",
+            "binding_site_annotation_begin_position",
+            "binding_site_annotation_end_position"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID17-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Which databases or information sources should I refer to in order to learn more about the intermolecular interaction sites of the ACE2 protein?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX faldo: <http://biohackathon.org/resource/faldo#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?binding_site_annotation_ligand ?binding_site_annotation_begin_position ?binding_site_annotation_end_position \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:ligand / rdfs:subClassOf ?binding_site_annotation_ligand .\n    }\n    OPTIONAL {\n        ?UniProt core:annotation ?BindingSiteAnnotation .\n        ?BindingSiteAnnotation a core:Binding_Site_Annotation ;\n            core:range [\n                a faldo:Region ;\n                faldo:begin [\n                    a faldo:Position ;\n                    faldo:position ?binding_site_annotation_begin_position ;\n                ] ;\n                faldo:end [\n                    a faldo:Position ;\n                    faldo:position ?binding_site_annotation_end_position ;\n                ] ;\n            ] .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please tell me about websites or databases that contain detailed information on the binding domains of the ACE2 gene product.",
+        "database": "uniprot",
+        "variables": [
+            "binding_site_annotation_ligand",
+            "binding_site_annotation_begin_position",
+            "binding_site_annotation_end_position"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID17-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please tell me about websites or databases that contain detailed information on the binding domains of the ACE2 gene product.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX faldo: <http://biohackathon.org/resource/faldo#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?binding_site_annotation_ligand ?binding_site_annotation_begin_position ?binding_site_annotation_end_position \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:ligand / rdfs:subClassOf ?binding_site_annotation_ligand .\n    }\n    OPTIONAL {\n        ?UniProt core:annotation ?BindingSiteAnnotation .\n        ?BindingSiteAnnotation a core:Binding_Site_Annotation ;\n            core:range [\n                a faldo:Region ;\n                faldo:begin [\n                    a faldo:Position ;\n                    faldo:position ?binding_site_annotation_begin_position ;\n                ] ;\n                faldo:end [\n                    a faldo:Position ;\n                    faldo:position ?binding_site_annotation_end_position ;\n                ] ;\n            ] .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306e\u7d50\u5408\u90e8\u4f4d\u306b\u7d50\u5408\u3059\u308b\u5206\u5b50\u3068\u7d50\u5408\u3059\u308b\u4f4d\u7f6e\u306e\u59cb\u70b9\u3068\u7d42\u70b9\u306f\u305d\u308c\u305e\u308c\u306a\u3093\u3067\u3059\u304b",
+        "database": "uniprot",
+        "variables": [
+            "binding_site_annotation_ligand",
+            "binding_site_annotation_begin_position",
+            "binding_site_annotation_end_position"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID17-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306e\u7d50\u5408\u90e8\u4f4d\u306b\u7d50\u5408\u3059\u308b\u5206\u5b50\u3068\u7d50\u5408\u3059\u308b\u4f4d\u7f6e\u306e\u59cb\u70b9\u3068\u7d42\u70b9\u306f\u305d\u308c\u305e\u308c\u306a\u3093\u3067\u3059\u304b\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX faldo: <http://biohackathon.org/resource/faldo#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?binding_site_annotation_ligand ?binding_site_annotation_begin_position ?binding_site_annotation_end_position \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:ligand / rdfs:subClassOf ?binding_site_annotation_ligand .\n    }\n    OPTIONAL {\n        ?UniProt core:annotation ?BindingSiteAnnotation .\n        ?BindingSiteAnnotation a core:Binding_Site_Annotation ;\n            core:range [\n                a faldo:Region ;\n                faldo:begin [\n                    a faldo:Position ;\n                    faldo:position ?binding_site_annotation_begin_position ;\n                ] ;\n                faldo:end [\n                    a faldo:Position ;\n                    faldo:position ?binding_site_annotation_end_position ;\n                ] ;\n            ] .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306b\u7d50\u5408\u3059\u308b\u5206\u5b50\u3068\u3001\u305d\u306e\u7d50\u5408\u304c\u8d77\u3053\u308b\u7bc4\u56f2\u3092\u7279\u5b9a\u3067\u304d\u307e\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "binding_site_annotation_ligand",
+            "binding_site_annotation_begin_position",
+            "binding_site_annotation_end_position"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID17-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306b\u7d50\u5408\u3059\u308b\u5206\u5b50\u3068\u3001\u305d\u306e\u7d50\u5408\u304c\u8d77\u3053\u308b\u7bc4\u56f2\u3092\u7279\u5b9a\u3067\u304d\u307e\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX faldo: <http://biohackathon.org/resource/faldo#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?binding_site_annotation_ligand ?binding_site_annotation_begin_position ?binding_site_annotation_end_position \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:ligand / rdfs:subClassOf ?binding_site_annotation_ligand .\n    }\n    OPTIONAL {\n        ?UniProt core:annotation ?BindingSiteAnnotation .\n        ?BindingSiteAnnotation a core:Binding_Site_Annotation ;\n            core:range [\n                a faldo:Region ;\n                faldo:begin [\n                    a faldo:Position ;\n                    faldo:position ?binding_site_annotation_begin_position ;\n                ] ;\n                faldo:end [\n                    a faldo:Position ;\n                    faldo:position ?binding_site_annotation_end_position ;\n                ] ;\n            ] .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u7523\u7269\u306e\u7d50\u5408\u90e8\u4f4d\u306b\u304a\u3044\u3066\u3001\u30ea\u30ac\u30f3\u30c9\u304c\u7d50\u5408\u3059\u308b\u914d\u5217\u306e\u958b\u59cb\u4f4d\u7f6e\u3068\u7d42\u4e86\u4f4d\u7f6e\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "binding_site_annotation_ligand",
+            "binding_site_annotation_begin_position",
+            "binding_site_annotation_end_position"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID17-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u7523\u7269\u306e\u7d50\u5408\u90e8\u4f4d\u306b\u304a\u3044\u3066\u3001\u30ea\u30ac\u30f3\u30c9\u304c\u7d50\u5408\u3059\u308b\u914d\u5217\u306e\u958b\u59cb\u4f4d\u7f6e\u3068\u7d42\u4e86\u4f4d\u7f6e\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX faldo: <http://biohackathon.org/resource/faldo#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?binding_site_annotation_ligand ?binding_site_annotation_begin_position ?binding_site_annotation_end_position \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:ligand / rdfs:subClassOf ?binding_site_annotation_ligand .\n    }\n    OPTIONAL {\n        ?UniProt core:annotation ?BindingSiteAnnotation .\n        ?BindingSiteAnnotation a core:Binding_Site_Annotation ;\n            core:range [\n                a faldo:Region ;\n                faldo:begin [\n                    a faldo:Position ;\n                    faldo:position ?binding_site_annotation_begin_position ;\n                ] ;\n                faldo:end [\n                    a faldo:Position ;\n                    faldo:position ?binding_site_annotation_end_position ;\n                ] ;\n            ] .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What are the molecular IDs that bind to the binding sites of the ACE2 gene?",
+        "database": "uniprot",
+        "variables": [
+            "binding_site_annotation_ligand"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID18-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What are the molecular IDs that bind to the binding sites of the ACE2 gene?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?binding_site_annotation_ligand \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:ligand / rdfs:subClassOf ?binding_site_annotation_ligand .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please list the names of ligands that interact with the ACE2 protein.",
+        "database": "uniprot",
+        "variables": [
+            "binding_site_annotation_ligand"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID18-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please list the names of ligands that interact with the ACE2 protein.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?binding_site_annotation_ligand \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:ligand / rdfs:subClassOf ?binding_site_annotation_ligand .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What substances specifically bind to the binding domains of the ACE2 gene product?",
+        "database": "uniprot",
+        "variables": [
+            "binding_site_annotation_ligand"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID18-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What substances specifically bind to the binding domains of the ACE2 gene product?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?binding_site_annotation_ligand \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:ligand / rdfs:subClassOf ?binding_site_annotation_ligand .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306e\u7d50\u5408\u90e8\u4f4d\u306b\u7d50\u5408\u3059\u308b\u5206\u5b50ID\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "binding_site_annotation_ligand"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID18-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306e\u7d50\u5408\u90e8\u4f4d\u306b\u7d50\u5408\u3059\u308b\u5206\u5b50ID\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?binding_site_annotation_ligand \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:ligand / rdfs:subClassOf ?binding_site_annotation_ligand .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u30bf\u30f3\u30d1\u30af\u8cea\u3068\u76f8\u4e92\u4f5c\u7528\u3059\u308b\u30ea\u30ac\u30f3\u30c9\u540d\u3092\u5217\u6319\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "binding_site_annotation_ligand"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID18-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u30bf\u30f3\u30d1\u30af\u8cea\u3068\u76f8\u4e92\u4f5c\u7528\u3059\u308b\u30ea\u30ac\u30f3\u30c9\u540d\u3092\u5217\u6319\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?binding_site_annotation_ligand \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:ligand / rdfs:subClassOf ?binding_site_annotation_ligand .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u7523\u7269\u306e\u7d50\u5408\u30c9\u30e1\u30a4\u30f3\u306b\u7279\u7570\u7684\u306b\u7d50\u5408\u3059\u308b\u7269\u8cea\u306b\u306f\u3069\u306e\u3088\u3046\u306a\u3082\u306e\u304c\u3042\u308a\u307e\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "binding_site_annotation_ligand"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID18-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u7523\u7269\u306e\u7d50\u5408\u30c9\u30e1\u30a4\u30f3\u306b\u7279\u7570\u7684\u306b\u7d50\u5408\u3059\u308b\u7269\u8cea\u306b\u306f\u3069\u306e\u3088\u3046\u306a\u3082\u306e\u304c\u3042\u308a\u307e\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?binding_site_annotation_ligand \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:ligand / rdfs:subClassOf ?binding_site_annotation_ligand .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Can you explain about mutagenesis of the ACE2 gene?",
+        "database": "uniprot",
+        "variables": [
+            "mutagenesis_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID21-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Can you explain about mutagenesis of the ACE2 gene?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?mutagenesis_annotation_desc \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?MutagenesisAnnotation .\n        ?MutagenesisAnnotation a core:Mutagenesis_Annotation ;\n            rdfs:comment ?mutagenesis_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please explain what is known about artificially introduced mutations in the ACE2 gene and their effects.",
+        "database": "uniprot",
+        "variables": [
+            "mutagenesis_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID21-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please explain what is known about artificially introduced mutations in the ACE2 gene and their effects.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?mutagenesis_annotation_desc \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?MutagenesisAnnotation .\n        ?MutagenesisAnnotation a core:Mutagenesis_Annotation ;\n            rdfs:comment ?mutagenesis_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Could you summarize the annotations of mutations in ACE2?",
+        "database": "uniprot",
+        "variables": [
+            "mutagenesis_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID21-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Could you summarize the annotations of mutations in ACE2?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?mutagenesis_annotation_desc \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?MutagenesisAnnotation .\n        ?MutagenesisAnnotation a core:Mutagenesis_Annotation ;\n            rdfs:comment ?mutagenesis_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306e\u5909\u7570\u8a98\u767a\u306b\u95a2\u3059\u308b\u8aac\u660e\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044?",
+        "database": "uniprot",
+        "variables": [
+            "mutagenesis_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID21-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306e\u5909\u7570\u8a98\u767a\u306b\u95a2\u3059\u308b\u8aac\u660e\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?mutagenesis_annotation_desc \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?MutagenesisAnnotation .\n        ?MutagenesisAnnotation a core:Mutagenesis_Annotation ;\n            rdfs:comment ?mutagenesis_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u306b\u4eba\u5de5\u7684\u306b\u5c0e\u5165\u3055\u308c\u305f\u5909\u7570\u3068\u305d\u306e\u5f71\u97ff\u306b\u3064\u3044\u3066\u3001\u308f\u304b\u3063\u3066\u3044\u308b\u3053\u3068\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "mutagenesis_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID21-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u306b\u4eba\u5de5\u7684\u306b\u5c0e\u5165\u3055\u308c\u305f\u5909\u7570\u3068\u305d\u306e\u5f71\u97ff\u306b\u3064\u3044\u3066\u3001\u308f\u304b\u3063\u3066\u3044\u308b\u3053\u3068\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?mutagenesis_annotation_desc \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?MutagenesisAnnotation .\n        ?MutagenesisAnnotation a core:Mutagenesis_Annotation ;\n            rdfs:comment ?mutagenesis_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u306e\u5909\u7570\u306e\u30a2\u30ce\u30c6\u30fc\u30b7\u30e7\u30f3\u3092\u8981\u7d04\u3057\u3066\u304f\u3060\u3055\u3044\u307e\u305b\u3093\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "mutagenesis_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID21-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u306e\u5909\u7570\u306e\u30a2\u30ce\u30c6\u30fc\u30b7\u30e7\u30f3\u3092\u8981\u7d04\u3057\u3066\u304f\u3060\u3055\u3044\u307e\u305b\u3093\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?mutagenesis_annotation_desc \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?MutagenesisAnnotation .\n        ?MutagenesisAnnotation a core:Mutagenesis_Annotation ;\n            rdfs:comment ?mutagenesis_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Can you explain about the natural variations of the TRP4.8 gene?",
+        "database": "uniprot",
+        "variables": [
+            "natural_variant_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name: \"TRP4.8\""
+        ],
+        "id": "ID22-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Can you explain about the natural variations of the TRP4.8 gene?\n# Parameter: uniprot_gene_name: (example: TRP4.8)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?natural_variant_annotation_desc \nWHERE {\n    VALUES ?uniprot_gene_name { \"TRP4.8\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?NaturalVariantAnnotation .\n        ?NaturalVariantAnnotation a core:Natural_Variant_Annotation ;\n            rdfs:comment ?natural_variant_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please tell me what is currently known about naturally occurring polymorphisms and variants of the TRP4.8 gene.",
+        "database": "uniprot",
+        "variables": [
+            "natural_variant_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name: \"TRP4.8\""
+        ],
+        "id": "ID22-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please tell me what is currently known about naturally occurring polymorphisms and variants of the TRP4.8 gene.\n# Parameter: uniprot_gene_name: (example: TRP4.8)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?natural_variant_annotation_desc \nWHERE {\n    VALUES ?uniprot_gene_name { \"TRP4.8\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?NaturalVariantAnnotation .\n        ?NaturalVariantAnnotation a core:Natural_Variant_Annotation ;\n            rdfs:comment ?natural_variant_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Could you explain what is known about the natural variations of the TRP4.8 gene?",
+        "database": "uniprot",
+        "variables": [
+            "natural_variant_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name: \"TRP4.8\""
+        ],
+        "id": "ID22-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Could you explain what is known about the natural variations of the TRP4.8 gene?\n# Parameter: uniprot_gene_name: (example: TRP4.8)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?natural_variant_annotation_desc \nWHERE {\n    VALUES ?uniprot_gene_name { \"TRP4.8\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?NaturalVariantAnnotation .\n        ?NaturalVariantAnnotation a core:Natural_Variant_Annotation ;\n            rdfs:comment ?natural_variant_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "TRP4.8\u907a\u4f1d\u5b50\u306e\u81ea\u7136\u5909\u7570\u306b\u95a2\u3059\u308b\u8aac\u660e\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044?",
+        "database": "uniprot",
+        "variables": [
+            "natural_variant_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name: \"TRP4.8\""
+        ],
+        "id": "ID22-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: TRP4.8\u907a\u4f1d\u5b50\u306e\u81ea\u7136\u5909\u7570\u306b\u95a2\u3059\u308b\u8aac\u660e\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044?\n# Parameter: uniprot_gene_name: (example: TRP4.8)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?natural_variant_annotation_desc \nWHERE {\n    VALUES ?uniprot_gene_name { \"TRP4.8\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?NaturalVariantAnnotation .\n        ?NaturalVariantAnnotation a core:Natural_Variant_Annotation ;\n            rdfs:comment ?natural_variant_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "TRP4.8\u907a\u4f1d\u5b50\u306e\u81ea\u7136\u767a\u751f\u7684\u306a\u591a\u578b\u3084\u5909\u7570\u4f53\u306b\u3064\u3044\u3066\u3001\u73fe\u5728\u308f\u304b\u3063\u3066\u3044\u308b\u3053\u3068\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "natural_variant_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name: \"TRP4.8\""
+        ],
+        "id": "ID22-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: TRP4.8\u907a\u4f1d\u5b50\u306e\u81ea\u7136\u767a\u751f\u7684\u306a\u591a\u578b\u3084\u5909\u7570\u4f53\u306b\u3064\u3044\u3066\u3001\u73fe\u5728\u308f\u304b\u3063\u3066\u3044\u308b\u3053\u3068\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: TRP4.8)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?natural_variant_annotation_desc \nWHERE {\n    VALUES ?uniprot_gene_name { \"TRP4.8\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?NaturalVariantAnnotation .\n        ?NaturalVariantAnnotation a core:Natural_Variant_Annotation ;\n            rdfs:comment ?natural_variant_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "TRP4.8\u907a\u4f1d\u5b50\u306e\u81ea\u7136\u5909\u7570\u306b\u3064\u3044\u3066\u308f\u304b\u3063\u3066\u3044\u308b\u3053\u3068\u3092\u8aac\u660e\u3057\u3066\u3044\u305f\u3060\u3051\u307e\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "natural_variant_annotation_desc"
+        ],
+        "param": [
+            "uniprot_gene_name: \"TRP4.8\""
+        ],
+        "id": "ID22-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: TRP4.8\u907a\u4f1d\u5b50\u306e\u81ea\u7136\u5909\u7570\u306b\u3064\u3044\u3066\u308f\u304b\u3063\u3066\u3044\u308b\u3053\u3068\u3092\u8aac\u660e\u3057\u3066\u3044\u305f\u3060\u3051\u307e\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: TRP4.8)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?natural_variant_annotation_desc \nWHERE {\n    VALUES ?uniprot_gene_name { \"TRP4.8\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation ?NaturalVariantAnnotation .\n        ?NaturalVariantAnnotation a core:Natural_Variant_Annotation ;\n            rdfs:comment ?natural_variant_annotation_desc .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the explanation for the reaction catalyzed by the ACE2 gene?",
+        "database": "uniprot",
+        "variables": [
+            "rhea_label"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID24-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the explanation for the reaction catalyzed by the ACE2 gene?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?rhea_label \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:catalyticActivity / core:catalyzedReaction / rdfs:label ?rhea_label .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please explain in detail the mechanism of the biochemical reaction facilitated by the ACE2 protein.",
+        "database": "uniprot",
+        "variables": [
+            "rhea_label"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID24-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please explain in detail the mechanism of the biochemical reaction facilitated by the ACE2 protein.\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?rhea_label \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:catalyticActivity / core:catalyzedReaction / rdfs:label ?rhea_label .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Can you tell me about the substrates, products, and the process of the chemical reaction catalyzed by the ACE2 gene product?",
+        "database": "uniprot",
+        "variables": [
+            "rhea_label"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID24-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Can you tell me about the substrates, products, and the process of the chemical reaction catalyzed by the ACE2 gene product?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?rhea_label \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:catalyticActivity / core:catalyzedReaction / rdfs:label ?rhea_label .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u304c\u89e6\u5a92\u3059\u308b\u53cd\u5fdc\u306e\u8aac\u660e\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "rhea_label"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID24-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u304c\u89e6\u5a92\u3059\u308b\u53cd\u5fdc\u306e\u8aac\u660e\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?rhea_label \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:catalyticActivity / core:catalyzedReaction / rdfs:label ?rhea_label .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u30bf\u30f3\u30d1\u30af\u8cea\u304c\u4fc3\u9032\u3059\u308b\u751f\u5316\u5b66\u53cd\u5fdc\u306e\u30e1\u30ab\u30cb\u30ba\u30e0\u3092\u8a73\u3057\u304f\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "rhea_label"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID24-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u30bf\u30f3\u30d1\u30af\u8cea\u304c\u4fc3\u9032\u3059\u308b\u751f\u5316\u5b66\u53cd\u5fdc\u306e\u30e1\u30ab\u30cb\u30ba\u30e0\u3092\u8a73\u3057\u304f\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?rhea_label \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:catalyticActivity / core:catalyzedReaction / rdfs:label ?rhea_label .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "ACE2\u907a\u4f1d\u5b50\u7523\u7269\u304c\u89e6\u5a92\u3059\u308b\u5316\u5b66\u53cd\u5fdc\u306e\u57fa\u8cea\u3068\u751f\u6210\u7269\u3001\u305d\u3057\u3066\u53cd\u5fdc\u904e\u7a0b\u3092\u6559\u3048\u3066\u3044\u305f\u3060\u3051\u307e\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "rhea_label"
+        ],
+        "param": [
+            "uniprot_gene_name: \"ACE2\""
+        ],
+        "id": "ID24-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: ACE2\u907a\u4f1d\u5b50\u7523\u7269\u304c\u89e6\u5a92\u3059\u308b\u5316\u5b66\u53cd\u5fdc\u306e\u57fa\u8cea\u3068\u751f\u6210\u7269\u3001\u305d\u3057\u3066\u53cd\u5fdc\u904e\u7a0b\u3092\u6559\u3048\u3066\u3044\u305f\u3060\u3051\u307e\u3059\u304b?\n# Parameter: uniprot_gene_name: (example: ACE2)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT DISTINCT ?rhea_label \nWHERE {\n    VALUES ?uniprot_gene_name { \"ACE2\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:encodedBy / skos:prefLabel ?uniprot_gene_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:catalyticActivity / core:catalyzedReaction / rdfs:label ?rhea_label .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the name of the protein that catalyzes the reaction angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "rhea_label: \"angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\""
+        ],
+        "id": "ID25-1-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the name of the protein that catalyzes the reaction angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine?\n# Parameter: rhea_label: (example: angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?rhea_label { \"angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:catalyticActivity / core:catalyzedReaction / rdfs:label ?rhea_label .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Please tell me the official name of the enzyme that facilitates the biochemical reaction described as angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine in the Rhea database.",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "rhea_label: \"angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\""
+        ],
+        "id": "ID25-2-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Please tell me the official name of the enzyme that facilitates the biochemical reaction described as angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine in the Rhea database.\n# Parameter: rhea_label: (example: angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?rhea_label { \"angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:catalyticActivity / core:catalyzedReaction / rdfs:label ?rhea_label .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "What is the name of the catalytic protein associated with the reaction angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "rhea_label: \"angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\""
+        ],
+        "id": "ID25-3-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: What is the name of the catalytic protein associated with the reaction angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine?\n# Parameter: rhea_label: (example: angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?rhea_label { \"angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:catalyticActivity / core:catalyzedReaction / rdfs:label ?rhea_label .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\u3068\u3044\u3046\u53cd\u5fdc\u3092\u89e6\u5a92\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f\u4f55\u3067\u3059\u304b?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "rhea_label: \"angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\""
+        ],
+        "id": "ID25-4-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\u3068\u3044\u3046\u53cd\u5fdc\u3092\u89e6\u5a92\u3059\u308b\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f\u4f55\u3067\u3059\u304b?\n# Parameter: rhea_label: (example: angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?rhea_label { \"angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:catalyticActivity / core:catalyzedReaction / rdfs:label ?rhea_label .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "Rhea\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u3067angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\u3068\u3057\u3066\u8a18\u8ff0\u3055\u308c\u3066\u3044\u308b\u751f\u5316\u5b66\u53cd\u5fdc\u3092\u4fc3\u9032\u3059\u308b\u9175\u7d20\u306e\u6b63\u5f0f\u540d\u79f0\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "rhea_label: \"angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\""
+        ],
+        "id": "ID25-5-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: Rhea\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u3067angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\u3068\u3057\u3066\u8a18\u8ff0\u3055\u308c\u3066\u3044\u308b\u751f\u5316\u5b66\u53cd\u5fdc\u3092\u4fc3\u9032\u3059\u308b\u9175\u7d20\u306e\u6b63\u5f0f\u540d\u79f0\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\n# Parameter: rhea_label: (example: angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?rhea_label { \"angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:catalyticActivity / core:catalyzedReaction / rdfs:label ?rhea_label .\n    }\n}\nLIMIT 100\n"
+    },
+    {
+        "user_question": "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\u3068\u3044\u3046\u53cd\u5fdc \u306b\u95a2\u9023\u4ed8\u3051\u3089\u308c\u3066\u3044\u308b\u89e6\u5a92\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f?",
+        "database": "uniprot",
+        "variables": [
+            "uniprot_recommended_name"
+        ],
+        "param": [
+            "rhea_label: \"angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\""
+        ],
+        "id": "ID25-6-1",
+        "sparql": "# Endpoint: https://rdfportal.org/sib/sparql\n#           https://sparql.uniprot.org/sparql\n# Description: angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\u3068\u3044\u3046\u53cd\u5fdc \u306b\u95a2\u9023\u4ed8\u3051\u3089\u308c\u3066\u3044\u308b\u89e6\u5a92\u30bf\u30f3\u30d1\u30af\u8cea\u306e\u540d\u524d\u306f?\n# Parameter: rhea_label: (example: angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine)\n\nPREFIX core: <http://purl.uniprot.org/core/>\nPREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT DISTINCT ?uniprot_recommended_name \nWHERE {\n    VALUES ?rhea_label { \"angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine\" }\n    VALUES ?UniProt__class { core:Protein chembl:UniprotRef }\n    ?UniProt a ?UniProt__class ;\n        core:recommendedName / core:fullName ?uniprot_recommended_name .\n    OPTIONAL {\n        ?UniProt core:annotation / core:catalyticActivity / core:catalyzedReaction / rdfs:label ?rhea_label .\n    }\n}\nLIMIT 100\n"
+    }
+]
